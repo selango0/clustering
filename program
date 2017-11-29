@@ -311,7 +311,8 @@ def graphPredictionErr(points, dimension, kvals = [25, 50, 75, 100, 125, 150], c
         tot = sum(poverty)
         hold_dist.append(tot)
     return hold_dist, kvals
-    
+print(graphPredictionErr)
+
 def plotAll(points, otherWeights, zeroWeighted, fullWeighted):
 
 
